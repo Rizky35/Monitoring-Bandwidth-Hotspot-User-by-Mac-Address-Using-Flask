@@ -1,0 +1,1 @@
+do {:local name [/system identity get name];/tool fetch url="http://Server Address:5000/index\?username=$"name"&bandwidth=$"bytes-total"&mac=$"mac-address"" mode=http keep-result=no;} on-error={:local name [/system identity get name];/tool fetch url="http://Server Address:5000/index\?username=$"name"&bandwidth=$"bytes-total"&mac=$"mac-address"" mode=http keep-result=no;}
