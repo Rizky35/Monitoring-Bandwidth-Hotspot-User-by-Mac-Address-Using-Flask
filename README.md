@@ -19,10 +19,15 @@ install.sh - Installation file
 2. Move flask directory to root directory.
 
 3. Run install.sh file on flask directory with this command "sh /root/flask/install.sh".
+
    command from file install.sh
+   
    a. Install python, python-pip mongodb, pymongo, flask
+   
    b. Add execute permission to file in /root/flask/
+   
    c. Add /etc/cron.d/hotspot file to running mon.py at 11:52 PM
+   
    d. Add /etc/systemd/system/hotspot.service file to start, stop, enable, and status this Script
 
 4. Set Your Server Date with this command "timedatectl set-timezone (Time Zone)", example: timedatectl set-timezone Asia/Jakarta.
